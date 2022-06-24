@@ -260,6 +260,7 @@ nav ul li a:hover {
   margin-bottom: 2rem;
   width: 100%;
   font-size: 1.5rem;
+  padding: 1rem;
 }
 .contact-box .input-box input {
   font-size: 1.5rem;
