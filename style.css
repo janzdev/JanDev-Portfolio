@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-:root{
-  --blue:#6C63FF;
-  --semiblack:#3F3D56;
-  --white:#fff;
+:root {
+  --blue: #6c63ff;
+  --semiblack: #3f3d56;
+  --white: #fff;
 }
-html{
+html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -20,11 +20,10 @@ ul {
 }
 a {
   text-decoration: none;
-  color: var(--semiblack)
+  color: var(--semiblack);
 }
 span {
   color: var(--blue);
-  
 }
 .main-head {
   width: 100%;
@@ -44,24 +43,24 @@ span {
   font-size: 2rem;
   font-weight: 500;
 }
- 
+
 .main-head nav ul {
   flex: 1 1 40rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-nav ul li a{
+nav ul li a {
   font-size: 1.4rem;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   color: var(--blue);
 }
- .active{
+.active {
   color: var(--blue);
 }
 
-.hero{
+.hero {
   min-height: 90vh;
   width: 90%;
   margin: auto;
@@ -70,42 +69,41 @@ nav ul li a:hover{
   justify-content: center;
   flex-wrap: wrap;
 }
-.hero .text-hero{
+.hero .text-hero {
   flex: 1 1 40rem;
 }
-.hero .text-hero h3{
+.hero .text-hero h3 {
   font-size: 3rem;
 }
-.hero .text-hero h1{
+.hero .text-hero h1 {
   font-size: 6rem;
 }
-.hero .text-hero p{
+.hero .text-hero p {
   font-size: 1.5rem;
   margin-top: 1rem;
-  
 }
-.hero .text-hero button{
+.hero .text-hero button {
   font-size: 1.5rem;
   background: var(--blue);
   color: var(--white);
   padding: 0.7rem 6rem;
   text-transform: uppercase;
-  margin-top:4rem;
+  margin-top: 4rem;
   font-weight: 500;
   border-radius: 5px;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
-.hero .text-hero button:hover{
+.hero .text-hero button:hover {
   background: #2f25eb;
 }
-.hero .image-hero{
+.hero .image-hero {
   flex: 2 1 40rem;
 }
-.hero .image-hero img{
+.hero .image-hero img {
   height: 100%;
   width: 100%;
 }
-.about{
+.about {
   min-height: 100vh;
   width: 90%;
   margin: auto;
@@ -114,215 +112,211 @@ nav ul li a:hover{
   align-items: center;
   flex-wrap: wrap;
 }
-.about .text-about{
+.about .text-about {
   flex: 3 1 40rem;
 }
-.about .text-about h3{
-  font-size:3rem;
+.about .text-about h3 {
+  font-size: 3rem;
   color: var(--blue);
-  
 }
-.about .text-about p{
-  font-size:1.5rem;
-  margin: 1.3rem 0  3rem;;
+.about .text-about p {
+  font-size: 1.5rem;
+  margin: 1.3rem 0 3rem;
 }
 
-.about .image-about{
+.about .image-about {
   flex: 1 1 40rem;
 }
-.about .image-about img{
+.about .image-about img {
   height: 100%;
   width: 100%;
 }
-.services{
+.services {
   min-height: 100vh;
   width: 90%;
-  margin: auto; 
+  margin: auto;
 }
 
-.services h4{
+.services h4 {
   font-size: 1.5rem;
   text-align: center;
   color: var(--semiblack);
 }
-.services .image{
+.services .image {
   min-height: 70vh;
   width: 80%;
   margin: auto;
   display: grid;
-  grid-template-areas: 
-  "image1 image2 image3"
-  "image4 image5 image6";
+  grid-template-areas:
+    "image1 image2 image3"
+    "image4 image5 image6";
   gap: 4rem;
 }
-.services .image img{
+.services .image img {
   min-height: 100%;
   width: 100%;
-  
 }
-.box1{
+.box1 {
   grid-area: image1;
 }
-.box2{
+.box2 {
   grid-area: image2;
 }
-.box3{
+.box3 {
   grid-area: image3;
 }
-.box4{
+.box4 {
   grid-area: image4;
 }
 
-.services h3{
+.services h3 {
   font-size: 3rem;
   color: var(--blue);
   margin-bottom: 3rem;
 }
-.services .image-box{
+.services .image-box {
   font-size: 3rem;
   color: var(--blue);
 }
 
-.projects{
+.projects {
   min-height: 100vh;
   width: 90%;
   margin: auto;
 }
-.projects h3{
+.projects h3 {
   font-size: 3rem;
   color: var(--blue);
   margin-bottom: 3rem;
-
 }
-.projects .project-image{
+.projects .project-image {
   min-height: 70vh;
   width: 60%;
   margin: auto;
   display: grid;
-  grid-template-areas: 
-  "project1 project2"
-  "project3 project4";
+  grid-template-areas:
+    "project1 project2"
+    "project3 project4";
   gap: 5rem;
-  
 }
-.projects .project-image img{
+.projects .project-image img {
   min-height: 100%;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 
 }
 
-.project-image .box1{
+.project-image .box1 {
   grid-area: project1;
 }
-.project-image .box2{
+.project-image .box2 {
   grid-area: project2;
 }
-.project-image .box3{
+.project-image .box3 {
   grid-area: project3;
 }
-.project-image .box4{
+.project-image .box4 {
   grid-area: project4;
 }
 
-.contact{
+.contact {
   min-height: 100vh;
   width: 90%;
   margin: auto;
 }
-.contact h3{
+.contact h3 {
   font-size: 3rem;
   color: var(--blue);
   margin-bottom: 3rem;
   flex-wrap: wrap;
 }
-.contact .contact-box{
+.contact .contact-box {
   min-height: 70vh;
   background: var(--semiblack);
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contact-box .contact-image{
+.contact-box .contact-image {
   flex: 1 1 40rem;
   margin: 0 1rem;
 }
-.contact-box .contact-image img{
+.contact-box .contact-image img {
   min-height: 100%;
   width: 100%;
 }
-.contact-box .input-box{
+.contact-box .input-box {
   flex: 1 1 40rem;
   margin: 0 1rem;
 }
-.contact-box .input-box label{
+.contact-box .input-box label {
   font-size: 1.5rem;
   display: block;
   margin: 1rem 0;
   color: var(--white);
-
 }
-.contact-box .input-box textarea{
+.contact-box .input-box textarea {
   resize: none;
   margin-bottom: 2rem;
+  width: 100%;
 }
-.contact-box .input-box input{
+.contact-box .input-box input {
   font-size: 1.5rem;
   width: 100%;
-  padding: 1rem; 
-  
+  padding: 1rem;
 }
-.contact-box .input-box .btn{
+.contact-box .input-box .btn {
   background: var(--blue);
   color: var(--white);
   border-radius: 0.5rem;
   border: none;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
-.contact-box .input-box .btn:hover{
+.contact-box .input-box .btn:hover {
   background: #2f25eb;
 }
 
-footer{
-  min-height:15vh;
+footer {
+  min-height: 15vh;
   background: var(--semiblack);
 }
-footer .footer-box{
- 
+footer .footer-box {
   width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.footer-box h4{
+.footer-box h4 {
   color: var(--blue);
   font-size: 1.3rem;
   margin-top: 2rem;
 }
-.footer-box .list1 a{
+.footer-box .list1 a {
   font-size: 2rem;
 }
-.footer-box  a:hover{
+.footer-box a:hover {
   text-decoration: underline;
 }
 
-.footer-box .list1 p{
+.footer-box .list1 p {
   font-size: 1.2rem;
   text-transform: uppercase;
   text-align: center;
-  color:var(--white);
+  color: var(--white);
 }
-.footer-box a{
+.footer-box a {
   font-size: 1.1rem;
   color: var(--white);
 }
-.list1, .list2, .list3, .list4{
+.list1,
+.list2,
+.list3,
+.list4 {
   display: flex;
   flex-direction: column;
 }
-footer .owner{
+footer .owner {
   text-align: center;
   color: var(--white);
 }
