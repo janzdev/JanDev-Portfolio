@@ -230,9 +230,8 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 .contact .contact-box {
-  min-height: 70vh;
+  min-height: 80vh;
   background: var(--semiblack);
-
   display: flex;
   align-items: center;
   justify-content: center;
